@@ -3,7 +3,7 @@ renderButtons();
 
 function displayGifs(){
 	var genre = $(this).attr("data-name");
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + genre + "&api_key=dc6zaTOxFJmzC";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + genre + "&api_key=dc6zaTOxFJmzC";
 
 	$.ajax({
 		url: queryURL,
